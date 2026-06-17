@@ -13,6 +13,8 @@ hatchling = "*"
 pytorch = "*"
 numpy = "*"
 scipy = "*"
+mujoco-warp = "*"
+mujoco = "*"
 
 [package.build]
 backend = { name = "pixi-build-python", version = "*" }
