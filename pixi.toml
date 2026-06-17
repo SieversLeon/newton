@@ -1,0 +1,18 @@
+[workspace]
+channels = ["conda-forge"]
+preview = ["pixi-build"]
+
+[package]
+name = "newton"
+version = "1.3.0.dev0"
+
+[package.host-dependencies] 
+hatchling = "*"
+
+[package.run-dependencies] 
+pytorch = "*"
+numpy = "*"
+scipy = "*"
+
+[package.build]
+backend = { name = "pixi-build-python", version = "*" }
